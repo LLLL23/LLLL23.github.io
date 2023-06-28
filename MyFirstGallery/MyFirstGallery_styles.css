@@ -1,0 +1,133 @@
+html, body {
+    background: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .navButt_home {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    height: 70px;
+    width: 70px;
+    margin: 0 30px 0 30px;
+    padding: 0;
+    background: rgb(9, 187, 241);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navButt_home:hover {
+    background-color: rgb(248, 10, 137);
+
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover,
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  #gallery {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative; 
+  }
+
+  .main-image {
+    width: 75%;
+    height: 100%;
+  }
+  
+  #image-container {
+    background-color: white;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+  }
+
+  #image-description {
+    width: 30%; /* Változtatható a szövegdoboz szélessége */
+    padding-left: 10px;
+    background-color: white; /* Hátteret fehérre állítottuk */
+  }
+
+  #artistName {
+    font-size: 22px; /* Változtatható a cím betűmérete */
+    font-weight: bold;
+  }
+  
+  #title {
+    font-size: 16px; /* Változtatható a cím betűmérete */
+    font-weight: bold;
+  }
+  
+  #lead {
+    font-size: 14px; /* Változtatható a lead betűmérete */
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #description-text {
+    font-size: 12px; /* Változtatható a szöveg betűmérete */
+  }
+
+
+
+  #thumbnail-container {
+    width: 75%;
+    height: 150px;
+    background-color: none;
+    background:  white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .nav-button {
+    position: absolute; /* Hozzáadott sor */
+    top: 50%; /* Hozzáadott sor */
+    transform: translateY(-50%); /* Hozzáadott sor */
+    font-size: 24px; /* Változtatható a gombok betűmérete */
+    cursor: pointer;
+    background-color: rgb(107, 108, 107);
+    padding: 10px;
+  }
+  
+  #previous-button {
+    left: 0; /* Előző gomb a bal szélen */
+  }
+  
+  #next-button {
+    right: 0; /* Következő gomb a jobb szélen */
+  }
+
+.thumbnails {
+    width: 100px;
+    height: 100px;
+
+    background-size: cover;
+    background-position: center;
+  }

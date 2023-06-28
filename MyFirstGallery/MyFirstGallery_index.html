@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Gallery</title>
+    <link rel="stylesheet" href="./MyFirstGallery_styles.css">
+</head>
+<body>
+
+
+  <div class="navButt_home">
+      <a href="https://llll23.github.io/">HOME</a>
+    </div>
+
+
+
+    <div id="gallery">
+        <div id="image-container">
+          <img id="current-image" class="main-image" src="" alt="">
+          
+          <div id="image-description">
+            <h2 id="artistName"></h2>
+            <h2 id="title"></h2>
+            <p id="lead"></p>
+            <div id="description-text"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="thumbnail-container">
+        <button id="previous-button" class="nav-button" onclick="previousImage()"> <<< </button>
+        <div id="thumbnails"></div>
+        <button id="next-button" class="nav-button" onclick="nextImage()">  >>> </button>
+      </div>
+      
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="./MyFirstGallery_scripts.js"></script> 
+</body>
+</html>
